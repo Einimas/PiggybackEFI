@@ -5,14 +5,16 @@ OP's written code might work where temperature is constant whole year round (way
 
 
 
-Main changes:
-A changed psi to bar (less conversions when adapting sensor)
-B added a crude IAT implementation (could increase the resolution)
-C listed more IO
+Main changes 1.1:
+1 changed psi to bar (less conversions when adapting sensor)
+2 added a crude IAT implementation (could increase the resolution)
+3 listed more IO
 
-Urgent:
+Main changes 1.2:
+1 added steinheart heart to calculate temperature precisely https://docs.google.com/spreadsheets/d/1g7HUZ1HyK0B082gxlFn5IR-zISHINthUldbfXhKSpno/edit#gid=0
+2 simplified map selection (pressure side)
 
-smoothing??
+Still untested.
 
 Will test it on Mazda 121 with mono injection and a Z5 from 323 (thats why 4 injector outputs), on bikes after mazda gets speeduino with fresh wireing harness.
 
